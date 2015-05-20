@@ -45,11 +45,10 @@ Short, high-level description of what the cleaning script does. [link to the rea
 General description of the file including:
  - Dimensions of the dataset: 180 rows of 89 columns (col1: subject col2: activity col3: activitycode col4:col33 std() col34:86 mean()
  - Summary of the data: The data conatins 1 row of various std() and mean() values per activity for each participant
- - Variables present in the dataset
- 
 
  
-###Variables 
+##Variables
+
 subject: numeric value 1-30 ..identifys the unique participant
 activity: character value of actiivity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 activity code: numeric value of actiivity: 1,2,3,4,5,6
