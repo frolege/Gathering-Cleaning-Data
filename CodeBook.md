@@ -1,5 +1,5 @@
 ---
-title: "Codebook template"
+title: "Gathering and Cleaning Data"
 author: "George Frole"
 date: "May 20, 2015"
 output:
@@ -47,27 +47,20 @@ Short, high-level description of what the cleaning script does. [link to the rea
  
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
- - Dimensions of the dataset: 180 rows of 89 columns (col1: subject col2: activity col3: activitycode col4:col33 std() col34:
- - 86 mean()
+ - Dimensions of the dataset: 180 rows of 89 columns (col1: subject col2: activity col3: activitycode col4:col33 std() col34:86 mean()
  - Summary of the data: The data conatins 1 row of various std() and mean() values per activity for each participant
  - Variables present in the dataset
  
 
  
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
+###Variables 
+subject: numeric value 1-30 ..identifys the unique participant
+activity: character value of actiivity: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+activity code: numeric value of actiivity: 1,2,3,4,5,6
+columns4:33 - mean of standard deviation columns
+columns34:86 - mean of mean columns
  
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
- 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
- 
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
- 
+
 ##Sources
 Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
 1 - Smartlab - Non-Linear Complex Systems Laboratory
