@@ -15,6 +15,9 @@ run_analysis.R is responsible for gathering, cleaning, and analyzing the data. I
   
 ### script that you can paste into R to view my tidy data (in a more readable format)
 address <- "https://s3.amazonaws.com/coursera-uploads/user-6dc492427c4f7756214a4c9f/973501/asst-3/81f8a110ff0211e48d52fb914190465f.txt"
+
 address <- sub("^https", "http", address)
+
 data <- read.table(url(address), header = TRUE)
+
 View(data)
