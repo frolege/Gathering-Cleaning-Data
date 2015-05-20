@@ -39,7 +39,7 @@ For each record in the dataset it is provided:
 ###Cleaning of the data
 Combined multiple Test files (subject_test.txt, y_test.txt, x_test.txt) with multiple Train files(subject_train.txt, y_train.txt, x_train.txt) using activity_labels.txt and features.txt to produce a tidy dataset then can be used for
 analysis down the line.
-Short, high-level description of what the cleaning script does. [Gathering-Cleaning-Data/README.md]
+Short, high-level description of what the cleaning script does. See README.md file for more information [https://github.com/frolege/Gathering-Cleaning-Data/blob/master/README.md]
  
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
