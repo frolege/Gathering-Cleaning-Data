@@ -1,10 +1,9 @@
 ---
-title: "Gathering and Cleaning Data"
 author: "George Frole"
-date: "May 20, 2015
+date  : "May 20, 2015
 ---
  
-## Gathering and Cleaning Data -  George Frole
+## Gathering and Cleaning Data
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
  
 ##Study design and data processing
